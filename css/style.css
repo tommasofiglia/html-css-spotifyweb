@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 /* Utility Classes */
 .d-flex{
   display: flex;
@@ -7,8 +11,16 @@
   flex-direction: column;
 }
 
-main{
+.white{
   color: white;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+
+.fs-12{
+  font-size: 12px;
 }
 
 /* Struttura del main */
@@ -18,7 +30,7 @@ main{
 }
 
 .sidebar{
-  background: green;
+  background: #282828;
   height: 80px;
   width: 100vw;
 }
@@ -30,12 +42,37 @@ main{
 }
 
 .central .main_content{
-  background: red;
+  background: #141922;
   width: calc(100% - 250px);
   height: calc(100vh - 80px);
 }
 /* Fine struttura del main */
 
+/* Inizio main_content */
 .main_content{
   overflow-y: auto;
+}
+
+.upgrade{
+  width: calc(100% - 250px);
+  height: 100px;
+  background: #00000069;
+  position: fixed;
+  top: 0;
+}
+
+.button_pill {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 13px 50px;
+  border-radius: 50px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+p{
+  padding-top: 110px;
 }
