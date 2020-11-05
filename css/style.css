@@ -11,15 +11,16 @@ main{
   color: white;
 }
 
-/* Colonna contenente la parte centrale (compreso aside) e sidebar */
+/* Struttura del main */
 .central_and_sidebar{
   justify-content: space-between;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .sidebar{
   background: green;
   height: 80px;
+  width: 100vw;
 }
 
 .central aside{
@@ -31,4 +32,10 @@ main{
 .central .main_content{
   background: red;
   width: calc(100% - 250px);
+  height: calc(100vh - 80px);
+}
+/* Fine struttura del main */
+
+.main_content{
+  overflow-y: auto;
 }
