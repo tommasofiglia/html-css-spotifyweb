@@ -15,6 +15,10 @@
   color: white;
 }
 
+.grey{
+  color: #7c7e83;
+}
+
 .fw-600{
   font-weight: 600;
 }
@@ -53,6 +57,7 @@
   overflow-y: auto;
 }
 
+/* Parte "effettua l'upgrade" */
 .upgrade{
   width: calc(100% - 250px);
   height: 100px;
@@ -72,7 +77,25 @@
   transform: translateY(-50%);
 }
 
+/* Navmenu */
+.main_content .navmenu-list{
+  justify-content: space-around;
+  padding: 0;
+}
 
-p{
-  padding-top: 110px;
+.nav-menu li{
+  padding-top: 120px;
+  list-style: none;
+}
+
+.nav-menu{
+  width: 55%;
+  margin: auto;
+}
+
+/* Recently played */
+
+.container-tips{
+  width: 96%;
+  margin: auto;
 }
