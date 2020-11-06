@@ -59,13 +59,13 @@
 
 .central aside{
   background: black;
-  width: 250px;
+  width: 230px;
   height: calc(100vh - 80px);
 }
 
 .central .main_content{
   background: #141922;
-  width: calc(100% - 250px);
+  width: calc(100% - 230px);
   height: calc(100vh - 80px);
 }
 /* Fine struttura del main */
@@ -77,7 +77,7 @@
 
 /* Parte "effettua l'upgrade" */
 .upgrade{
-  width: calc(100% - 250px);
+  width: calc(100% - 230px);
   height: 100px;
   background: #00000069;
   position: fixed;
@@ -112,7 +112,7 @@
   margin: auto;
 }
 
-/* Recently played , Created for*/
+/* Recently played , Created for , Artisti popolari*/
 
 .container-tips{
   width: 98%;
@@ -169,3 +169,5 @@
 .popular img{
   border-radius: 50%;
 }
+
+/* Barra laterale */
