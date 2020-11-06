@@ -171,3 +171,30 @@
 }
 
 /* Barra laterale */
+#logo_big{
+  width: 180px;
+  padding: 20px;
+}
+
+.prova{
+  justify-content: space-between;
+}
+.aside_menu{
+  padding-left: 0;
+}
+
+.aside_menu li{
+  list-style: none;
+  padding-top:  5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.aside_menu img{
+  width: 25px;
+}
+
+.aside_menu .border_lg{
+  border-left: 4px solid #adff2f;
+  padding-left: 11px;
+}
