@@ -35,6 +35,12 @@
   font-size: 12px;
 }
 
+.fs-15{
+  font-size: 15px;
+}
+
+
+
 /* Struttura del main */
 .central_and_sidebar{
   justify-content: space-between;
@@ -121,6 +127,7 @@
   justify-content: space-between;
 }
 
-img{
+img , .card h4 , .card div{
   width: 90%;
+  margin: 10px auto;
 }
