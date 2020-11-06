@@ -35,6 +35,10 @@
   font-size: 12px;
 }
 
+.fs-13{
+  font-size: 13px;
+}
+
 .fs-15{
   font-size: 15px;
 }
@@ -107,7 +111,7 @@
   margin: auto;
 }
 
-/* Recently played */
+/* Recently played , Created for*/
 
 .container-tips{
   width: 98%;
@@ -119,7 +123,7 @@
   margin: auto;
 }
 
-.container-tips h2{
+.container-tips h2 , .container-tips p{
   margin-left: 10px;
 }
 
@@ -127,7 +131,40 @@
   justify-content: space-between;
 }
 
-img , .card h4 , .card div{
+.card img , .card h4 , .card .subtitle{
   width: 90%;
   margin: 10px auto;
+}
+
+.card .img_play{
+  position: relative;
+}
+
+.card .img_play .play_button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.card .play_button i{
+  font-size: 60px;
+  display: none;
+}
+
+.card .img_play .play_button a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.card .img_play:hover i{
+  display: block;
+}
+
+.card .img_play:hover img{
+  filter: brightness(0.4);
+}
+
+.popular img{
+  border-radius: 50%;
 }
