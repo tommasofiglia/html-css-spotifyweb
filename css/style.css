@@ -82,6 +82,7 @@
   background: #00000069;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .button_pill {
