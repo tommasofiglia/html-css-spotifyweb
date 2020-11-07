@@ -7,6 +7,28 @@
   display: flex;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.hover_white:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.hover_bg_white:hover{
+  background: white;
+}
+
+.focus_no_deco:focus{
+  text-decoration: none;
+  color: inherit;
+}
+
 .column{
   flex-direction: column;
 }
@@ -21,6 +43,14 @@
 
 .grey{
   color: #7c7e83;
+}
+
+.black{
+  color: black
+}
+
+.bg_grey{
+  background-color: #7c7e83;
 }
 
 .fw-500{
@@ -41,6 +71,10 @@
 
 .fs-15{
   font-size: 15px;
+}
+
+.pb_20{
+  padding-bottom: 20px;
 }
 
 
@@ -171,15 +205,16 @@
 }
 
 /* Barra laterale */
+aside{
+  overflow-y: auto;
+}
+
 #logo_big{
   width: 180px;
   padding: 20px;
 }
 
-.prova{
-  justify-content: space-between;
-}
-.aside_menu{
+.aside_menu , .playlist ul{
   padding-left: 0;
 }
 
@@ -197,4 +232,65 @@
 .aside_menu .border_lg{
   border-left: 4px solid #adff2f;
   padding-left: 11px;
+}
+
+/* Playlist */
+.playlist{
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.playlist li{
+  list-style: none;
+}
+
+.playlist a span {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 0 10px;
+  margin-right: 5px;
+}
+
+.create_playlist{
+  height: 40px;
+  position: relative;
+}
+.playlist a div{
+  width: 100px;
+  margin-left: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.playlist li {
+  margin-bottom: 15px;
+}
+
+.playlist ul{
+  height: 150px;
+  overflow-y: auto;
+}
+
+/* Installa app */
+.install_app{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.install_app i{
+  margin-right: 5px;
+}
+
+.install_app hr{
+  border-top: 1px solid #7c7e83;
+  margin: 10px 0;
+}
+
+.install_app div img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
