@@ -90,7 +90,15 @@
   padding-bottom: 20px;
 }
 
+.hr_grey{
+  border-top: 4px solid #5a5a5a;
+  border-radius: 5px;
+}
 
+.hr_white{
+  border-top: 4px solid white;
+  border-radius: 5px;
+}
 
 /* Struttura del main */
 .central_and_sidebar{
@@ -314,7 +322,7 @@ aside{
   overflow: hidden;
 }
 
-.sb_right_left{
+.sb_right , .sb_left{
   width: 30%;
   position: relative;
 }
@@ -383,21 +391,45 @@ aside{
 }
 
 .scroll_timer{
-  width: 80%;
+  width: 75%;
 }
 
 .scroll_timer .hr_grey{
   position: relative;
   bottom: 16px;
-  border-top: 4px solid #5a5a5a;
-  border-radius: 5px;
 }
 
 .scroll_timer .hr_white{
   position: relative;
   bottom: 40px;
-  border-top: 4px solid white;
-  border-radius: 5px;
   width: 20%;
+  margin-left: 0;
+}
+
+/* Parte destra della sidebar */
+
+.sb_right{
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.sb_right a , .sb_right div{
+  margin-right: 20px;
+}
+
+.volume_adjust{
+  width: 100px;
+}
+
+.volume_adjust .hr_grey{
+  position: relative;
+  bottom: -10px;
+}
+
+.volume_adjust .hr_white{
+  position: relative;
+  bottom: 14px;
+  width: 30px;
   margin-left: 0;
 }
