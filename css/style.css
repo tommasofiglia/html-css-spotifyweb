@@ -316,7 +316,7 @@ aside{
 }
 
 .playlist ul{
-  /* height: 150px; */
+  height: 180px;
   overflow-y: auto;
 }
 
