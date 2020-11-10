@@ -94,6 +94,10 @@
   margin-bottom: 25px;
 }
 
+.mb_50{
+  margin-bottom: 50px;
+}
+
 .hr_grey{
   border-top: 4px solid #5a5a5a;
   border-radius: 5px;
@@ -447,8 +451,8 @@ aside{
   margin-left: 0;
 }
 
-/* Mediaquery Md */
-@media screen and (max-width: 992px) {
+/* Mediaquery MD */
+@media screen and (max-width: 991.5px) {
 
   /* Menu nav centrale */
   .nav-menu li{
@@ -471,7 +475,6 @@ aside{
 
   /* Parte Recently played , Created for e artisti popolari */
   .recently .d-flex{
-    flex-basis: 50%;
     flex-wrap: wrap;
   }
 
@@ -489,6 +492,70 @@ aside{
 
   .popular .card{
     flex-basis: 25%;
+  }
+
+  /* Sidebar */
+
+  .sb_icons{
+    margin-left: 30px;
+  }
+
+  .sb_icons i {
+    margin-top: 20px;
+    margin-right: 5px;
+  }
+
+
+  .reproducing_info {
+    margin-left: 10px;
+  }
+
+}
+
+/* Mediaquery SM */
+@media screen and (max-width: 767.5px){
+
+  /* Menu nav centrale */
+  .nav-menu li{
+    font-size: 14px;
+    padding-top:40px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .nav-menu ul{
+    margin-top: 80px;
+  }
+
+  .nav-menu{
+    width: calc(567px - 230px);
+    /* margin: auto; */
+  }
+
+  .nav-menu .d-flex{
+    flex-wrap: wrap;
+  }
+
+  /* Parte Recently played , Created for e artisti popolari */
+
+  .recently .d-flex{
+    flex-wrap: wrap;
+  }
+
+  .recently .card{
+    flex-basis: 50%;
+  }
+
+  .recently>.d-flex{
+    justify-content: flex-start;
+  }
+
+  .created .card{
+    flex-basis: 50%;
+  }
+
+  .popular .card{
+    flex-basis: 50%;
   }
 
 }
