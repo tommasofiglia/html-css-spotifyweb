@@ -558,4 +558,36 @@ aside{
     flex-basis: 50%;
   }
 
+  /* SideBar */
+
+  .sb_right a, .sb_right div {
+    margin-right: 10px;
+  }
+
+  .reproducing_info .sb_song div {
+      line-height: 1em;
+      margin-left: 5px;
+  }
+
+  .sb_icons{
+    margin-left: 5px;
+  }
+
+  .sb_icons i {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .sb_icons a {
+    display: block;
+    margin-top: 0;
+  }
+
+  .reproducing_info {
+    margin-left: 10px;
+  }
+
+
+
 }
