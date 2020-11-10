@@ -90,6 +90,10 @@
   padding-bottom: 20px;
 }
 
+.mb_25{
+  margin-bottom: 25px;
+}
+
 .hr_grey{
   border-top: 4px solid #5a5a5a;
   border-radius: 5px;
@@ -449,11 +453,11 @@ aside{
   /* Menu nav centrale */
   .nav-menu li{
     padding-right: 13px;
-    padding-top:30px;
+    padding-top:40px;
   }
 
   .nav-menu ul{
-    margin-top: 90px;
+    margin-top: 80px;
   }
 
   .nav-menu{
