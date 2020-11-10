@@ -33,6 +33,11 @@
   background: white;
 }
 
+.focus_white:focus{
+  text-decoration: none;
+  color: white;
+}
+
 .focus_no_deco:focus{
   text-decoration: none;
   color: inherit;
@@ -693,4 +698,20 @@ aside{
     left: 13px;
   }
 
+}
+
+/* Effetti transition */
+
+.hover_white{
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+.card .img_play {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.card .img_play img{
+  transition: all 0.5s;
 }
