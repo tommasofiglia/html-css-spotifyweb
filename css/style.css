@@ -7,6 +7,10 @@
   display: flex;
 }
 
+.d-none{
+  display: none;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -588,6 +592,69 @@ aside{
     margin-left: 10px;
   }
 
+}
 
+/* Mediaquery xs */
+
+@media screen and (max-width: 575.5px) {
+
+  /* Utility classes */
+  .xs-hidden{
+    display: none;
+  }
+
+  .xs-block{
+    display: block;
+  }
+
+  /* Ridimensionamento layout */
+  .central aside{
+    width: 50px;
+  }
+
+  .central .main_content{
+    width: calc(100% - 50px);
+  }
+
+  .upgrade{
+    width: calc(100% - 50px);
+  }
+
+  /*barra laterale*/
+  #logo_small{
+    width: 30px;
+    margin: 10px auto;
+  }
+
+  .aside_menu li {
+    padding-left: 0;
+    margin: auto;
+  }
+
+  .aside_menu .border_lg {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .install_app {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .install_app i {
+    margin-right: 0;
+  }
+
+  .install_app>div{
+    text-align: center;
+  }
+
+  .install_app div img {
+    margin-right: 0;
+  }
+
+  .install_app > div {
+    padding-bottom: 10px;
+  }
 
 }
