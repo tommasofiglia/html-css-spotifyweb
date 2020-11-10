@@ -451,7 +451,7 @@ aside{
 .volume_adjust .hr_white{
   position: relative;
   bottom: 14px;
-  width: 30px;
+  width: 30%;
   margin-left: 0;
 }
 
@@ -655,6 +655,31 @@ aside{
 
   .install_app > div {
     padding-bottom: 10px;
+  }
+
+  /* Sidebar */
+  .reproducing_info {
+    margin-left: 4px;
+  }
+
+  .reproducing_info img{
+    width: 30px;
+    margin-top: 10px;
+  }
+
+  .player_controls {
+    width: 150px;
+  }
+
+  .scroll_timer .hr_grey {
+    position: relative;
+    bottom: 16px;
+    width: 70%;
+    left: 5px;
+  }
+
+  .scroll_timer .hr_white{
+    left: 13px;
   }
 
 }
