@@ -715,3 +715,7 @@ aside{
 .card .img_play img{
   transition: all 0.5s;
 }
+
+.play_button{
+  transition: all 0.5s;
+}
